@@ -1,28 +1,12 @@
-<html>
-    <head><title>表格</title></head>
-    <body>
-        <table border="1">
-            <tr><td>1</td><td>2</td><td>3</td></tr>
-            <tr><td>4</td><td>5</td><td>6</td></tr>
-        </table>
-
-        <table border="1">
-            <tr><td>1</td><td colspan="2">2 3</td></tr>
-            <tr><td>4</td><td>5</td><td>6</td></tr>
-        </table>
-
-        <!-- rowspan：列合併 -->
-        <table border="1">
-            <tr><td rowspan="2">1 4</td><td>2</td><td>3</td></tr>
-            <tr><td>5</td><td>6</td></tr>
-        </table>
-
-        <!-- 3x3 表格，含列、欄合併 -->
-        <table border="1">
-            <tr><td>1</td><td colspan="2" rowspan="2">2 3 5 6</td></tr>
-            <tr><td>4</td></tr>
-            <tr><td>7</td><td>8</td><td>9</td></tr>
-        </table>
-    </body>
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head><meta charset="UTF-8"><title>表格</title></head>
+<body>
+<!-- 表格 -->
+<table border="1">
+<tr><th>科目</th><th>分數</th></tr>
+<tr><td>HTML</td><td>100</td></tr>
+<tr><td>CSS</td><td>95</td></tr>
+</table>
+</body>
 </html>
-
